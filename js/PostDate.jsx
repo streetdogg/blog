@@ -2,7 +2,7 @@ class PostDate extends React.Component {
     render() {
         return (
             <div className="post-date">
-                <em>{this.props.date}</em>
+                <em>Published on: {this.props.date}</em>
             </div>
         );
     }

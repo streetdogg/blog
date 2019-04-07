@@ -2,85 +2,99 @@
     {
         "id":1,
         "image":"data/img/post1.jpg",
-        "title":"Pen, pencil and deep thoughts",
+        "title":"Pleasure and Pain",
         "date":"30-April-2018",
-        "snippet":"I am going to live out my life more fully. I’ve been holding myself back thinking of all the responsibilities that I have to take and account for…."
+        "snippet":"You prepare for the future, plan for it and if it happens it has to be yours! Nothing is in particular running through my mind at the moment…."
     },
     {
         "id":2,
         "image":"data/img/post2.jpg",
-        "title":"The day without a phone",
+        "title":"Lessons from a Dog",
         "date":"20-Oct-2017",
-        "snippet":"Silence kills me. I can’t handle it if the mental chatter stops. I want it to stop but I wouldn’t know how to deal with it! I like…"
+        "snippet":"It is the same story everyday. He follows his owner to the gate, the owner bids him goodbye and closes the gate behind him. This Dog, stays in…"
     },
     {
         "id":3,
         "image":"data/img/post3.jpg",
-        "title":"High Jump (Literally)",
+        "title":"Wow! The Confidence",
         "date":"2-Feb-2015",
-        "snippet":"First thing I realized after landing on the spongy bed was, “It’s usually we who stand in our own way!“. Winning is more a matter of choice and…"
+        "snippet":"I think good Engineers know a lot about the way world operates. This comes from the fact that as an engineer you cannot design and solve problem if…"
     },
     {
         "id":4,
-        "image":"data/img/post1.jpg",
-        "title":"Pen, pencil and deep thoughts",
+        "image":"data/img/post4.jpg",
+        "title":"The Logical Villain",
         "date":"30-April-2018",
-        "snippet":"I am going to live out my life more fully. I’ve been holding myself back thinking of all the responsibilities that I have to take and account for…."
+        "snippet":"The World somehow always convinces you that in some sense you are falling behind. That you lack, your life sucks and you are the chosen one to be…"
     },
     {
         "id":5,
-        "image":"data/img/post2.jpg",
-        "title":"The day without a phone",
+        "image":"data/img/post5.jpg",
+        "title":"Lost Mariner",
         "date":"20-Oct-2017",
-        "snippet":"Silence kills me. I can’t handle it if the mental chatter stops. I want it to stop but I wouldn’t know how to deal with it! I like…"
+        "snippet":"If you leave Important things at the mercy of unimportant things, then you are heading for the crater! Lately, I’ve been thinking what is the long term vision…"
     },
     {
         "id":6,
-        "image":"data/img/post3.jpg",
-        "title":"High Jump (Literally)",
+        "image":"data/img/post6.jpg",
+        "title":"Things need to Change",
         "date":"2-Feb-2015",
-        "snippet":"First thing I realized after landing on the spongy bed was, “It’s usually we who stand in our own way!“. Winning is more a matter of choice and…"
-    },
-    {
-        "id":7,
-        "image":"data/img/post1.jpg",
-        "title":"Pen, pencil and deep thoughts",
-        "date":"30-April-2018",
         "snippet":"I am going to live out my life more fully. I’ve been holding myself back thinking of all the responsibilities that I have to take and account for…."
     },
     {
+        "id":7,
+        "image":"data/img/post7.jpg",
+        "title":"What after Mum and Dad?",
+        "date":"30-April-2018",
+        "snippet":"Every morning I look at them. I am thankful that I have them. Then I feel sad, they are growing old. And growing old fast. My Mum’s jet…"
+    },
+    {
         "id":8,
-        "image":"data/img/post2.jpg",
-        "title":"The day without a phone",
+        "image":"data/img/post8.jpg",
+        "title":"Strange Silence",
         "date":"20-Oct-2017",
         "snippet":"Silence kills me. I can’t handle it if the mental chatter stops. I want it to stop but I wouldn’t know how to deal with it! I like…"
     },
     {
         "id":9,
-        "image":"data/img/post3.jpg",
-        "title":"High Jump (Literally)",
+        "image":"data/img/post9.jpg",
+        "title":"Maker",
         "date":"2-Feb-2015",
-        "snippet":"First thing I realized after landing on the spongy bed was, “It’s usually we who stand in our own way!“. Winning is more a matter of choice and…"
+        "snippet":"I am not from a family of means. I’ve seen Jam on the table disappear often as a part of budget planning. There are few incidences from my childhood…"
     },
     {
         "id":10,
-        "image":"data/img/post1.jpg",
-        "title":"Pen, pencil and deep thoughts",
+        "image":"data/img/post10.jpg",
+        "title":"Letter to a Friend",
         "date":"30-April-2018",
-        "snippet":"I am going to live out my life more fully. I’ve been holding myself back thinking of all the responsibilities that I have to take and account for…."
+        "snippet":"“Between the conception And the creation Between the emotion And the response Falls the Shadow” Hi Paddy, Remember the winter night? You were in the workshop, around 9:30 pm or…"
     },
     {
         "id":11,
-        "image":"data/img/post2.jpg",
-        "title":"The day without a phone",
+        "image":"data/img/post11.jpg",
+        "title":"Heaven-Hell-Heaven",
         "date":"20-Oct-2017",
-        "snippet":"Silence kills me. I can’t handle it if the mental chatter stops. I want it to stop but I wouldn’t know how to deal with it! I like…"
+        "snippet":"Yesterday, while I was writing about my room mates and graduation life. I got a message from a guy asking for my number. I gave him my number…"
     },
     {
         "id":12,
-        "image":"data/img/post3.jpg",
-        "title":"High Jump (Literally)",
+        "image":"data/img/post12.jpg",
+        "title":"Bet’s on Rex!",
+        "date":"2-Feb-2015",
+        "snippet":"I walked towards his bed, sat on the chair next to the table and asked,”Choose a date paaji”. “17th April 2017”, he replied and meanwhile I threw him…"
+    },
+    {
+        "id":13,
+        "image":"data/img/post13.jpg",
+        "title":"Chuck it, Let’s do it!",
         "date":"2-Feb-2015",
         "snippet":"First thing I realized after landing on the spongy bed was, “It’s usually we who stand in our own way!“. Winning is more a matter of choice and…"
+    },
+    {
+        "id":14,
+        "image":"data/img/post14.jpg",
+        "title":"Padmanabh Deshmukh",
+        "date":"2-Feb-2015",
+        "snippet":"29th of July, 2014. Evening. Around 8pm, I called him to flush my frustration. The phone rang, he attended and before I could greet “hello!” he said with a…"
     }
 ]
