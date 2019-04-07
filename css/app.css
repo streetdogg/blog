@@ -1,3 +1,8 @@
+body {
+    margin:  0px;
+    padding: 0px;
+}
+
 .blog {
     display: flex;
     align-items: flex-start;
@@ -59,4 +64,11 @@
     padding: 2%;
     width: 80%;
     box-shadow: 0px 0px 100px 0px black;
+}
+
+.footer {
+    margin-top:10px;
+    padding: 15px;
+    /* flex-shrink: 0; */
+    text-align: center;
 }
