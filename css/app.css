@@ -1,7 +1,7 @@
 body {
     margin:  0px;
     padding: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .blog {
@@ -34,6 +34,7 @@ body {
 .post-title {
     padding: 2px;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .post-date {
@@ -63,22 +64,95 @@ body {
 }
 
 .paper {
-    display:none;
-    position: absolute;
-    z-index: 1;
+    background: grey
 }
 
-.paper-content {
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: row;
-    background-color: #fefefe;
-    margin-left:10%;
-    margin-top:2%;
-    margin-bottom:2%;
-    padding: 2%;
-    width: 80%;
-    box-shadow: 0px 0px 100px 0px black;
+@media (max-width: 1024px) {
+    .md {
+        position:flex;
+        align-items: flex-start;
+        margin:0;
+        z-index: 2;
+        font-size: 16px;
+        background-color: white;
+        background-position: center;
+        font-family: sans-serif;
+    }
+    .blog-title {
+        text-align: center;
+        font-size: 28px;
+        padding-top: 2%;
+        padding-bottom: 0%;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .blog-body {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        padding:5%;
+        padding-top: 0%;
+        padding-bottom: 2%;
+    }
+
+    .blog-quote {
+        text-align: center;
+        font-size: 16px;
+        color: grey;
+        font-style: oblique;
+    }
+}
+
+@media (min-width: 1205px) {
+    .md {
+        position:flex;
+        align-items: flex-start;
+        margin:10%;
+        margin-top:10px;
+        margin-bottom:10px;
+        cursor: pointer;
+        z-index: 2;
+        font-size: 16px;
+        background-color: white;
+        background-position: center;
+        font-family: sans-serif;
+        box-shadow: 0px 0px 10px 0px black;
+    }
+
+
+    .blog-title {
+        text-align: center;
+        font-size: 42px;
+        padding-top: 2%;
+        padding-bottom: 0%;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .blog-body {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        padding:5%;
+        padding-top: 0%;
+        padding-bottom: 2%;
+    }
+
+    .blog-quote {
+        text-align: center;
+        font-size: 20px;
+        color: grey;
+        font-style: oblique;
+    }
+}
+
+.blog-img {
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    margin:0px;
+    padding:-5%;
 }
 
 .footer {
