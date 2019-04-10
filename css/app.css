@@ -89,7 +89,7 @@ hr {
         width: 50px;
         height: 50px;
         border-radius: 50px;
-        box-shadow: 0px 0px 3px 0px black;
+        box-shadow: 0px 0px 3px 0px grey;
         font: bold 18px/21px Helvetica, Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -128,8 +128,8 @@ hr {
     }
 
     .blog-quote:after {
-        content: ' \f106';
-        font: 16px/1 "Genericons";
+        content: ' \f10e';
+        font: 16px/1 'fontawesome';
         color:brown;
         position: relative;
     }
@@ -183,23 +183,24 @@ hr {
         color: grey;
         font-style: oblique;
     }
+
     .blog-quote:before {
-        content: '\f106';
-        font: 64px/1 "Genericons";
+        content: '\f10d  ';
+        font: 64px/1 'fontawesome';
         width: 64px;
         height: 64px;
-        color:brown;
+        color:grey;
         position: relative;
         top: 20px;
         right: 0%;
     }
 
     .st {
-        background:white;
+        /* background:white; */
         width: 50px;
         height: 50px;
         border-radius: 50px;
-        box-shadow: 0px 0px 3px 0px black;
+        box-shadow: 0px 0px 10px 0px grey;
         font: bold 18px/21px Helvetica, Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -231,7 +232,8 @@ hr {
 
 .pointer {
     position: relative;
-    margin-top:30%;
-    margin-left:30%;
+    margin-top:0%;
+    margin-left:0%;
     vertical-align: middle;
+    font-size: 50px;
 }
