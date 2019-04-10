@@ -14,17 +14,19 @@ body {
 
 .post-img-container
 {
-     max-width: 300px;
-     overflow: hidden;
+    max-width: 300px;
+    overflow: hidden;
 }
 
 .post-img
 {
-     height: 100%;
-     width: 100%;
-     background-size: cover;
-     background-position: center;
-     transition: all 2s ease;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 2s ease;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .post {
@@ -50,14 +52,19 @@ body {
 
 .post-card {
     width: 300px;
-    margin: 10px;
+    margin: 5px;
     background-color: white;
-    box-shadow: 0px 0px 5px 0px grey;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-radius: 8px;
+}
+hr {
+    width: 80%;
+    color: grey;
 }
 
 .post-card:hover,
 .post-card:focus  {
-    box-shadow: 0px 0px 20px 0px black;
+    box-shadow: 0 2px 10px rgba(32, 33, 36, 0.28);
     z-index: 1;
     transform: scale(1.01);
     cursor: pointer;
@@ -68,6 +75,11 @@ body {
 }
 
 @media (max-width: 1024px) {
+    body {
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+     }
     .md {
         position:flex;
         align-items: flex-start;
@@ -78,6 +90,25 @@ body {
         background-position: center;
         font-family: sans-serif;
     }
+
+    .st {
+        background:white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        box-shadow: 0px 0px 3px 0px black;
+        font: bold 18px/21px Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        position: -webkit-sticky;
+        position: fixed;
+        bottom: 3%;
+        vertical-align: middle;
+        right: 3%;
+        z-index: 3;
+        cursor: pointer;
+    }
+
     .blog-title {
         text-align: center;
         font-size: 28px;
@@ -111,7 +142,6 @@ body {
         margin:10%;
         margin-top:10px;
         margin-bottom:10px;
-        cursor: pointer;
         z-index: 2;
         font-size: 16px;
         background-color: white;
@@ -124,7 +154,7 @@ body {
     .blog-title {
         text-align: center;
         font-size: 42px;
-        padding-top: 2%;
+        padding-top: 0%;
         padding-bottom: 0%;
         font-weight: 600;
         font-family: 'Open Sans', sans-serif;
@@ -145,6 +175,24 @@ body {
         color: grey;
         font-style: oblique;
     }
+
+    .st {
+        background:white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        box-shadow: 0px 0px 3px 0px black;
+        font: bold 18px/21px Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        position: -webkit-sticky;
+        position: fixed;
+        bottom: 3%;
+        vertical-align: middle;
+        right: 11%;
+        z-index: 3;
+        cursor: pointer;
+    }
 }
 
 .blog-img {
@@ -155,9 +203,17 @@ body {
     padding:-5%;
 }
 
-.footer {
+.ft {
     margin-top:10px;
     padding: 15px;
+    font-size: 12px;
     color: grey;
     text-align: center;
+}
+
+.pointer {
+    position: relative;
+    margin-top:30%;
+    margin-left:30%;
+    vertical-align: middle;
 }

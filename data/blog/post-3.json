@@ -1,0 +1,11 @@
+<img class="blog-img" src="data/img/b_post3.jpg">
+<h1 class="blog-title">Wow! The Confidence</h1>
+<div class="blog-body">
+<p>I think good Engineers know a lot about the way world operates. This comes from the fact that as an engineer you cannot design and solve problem if you do not thoroughly understand the problem and all aspects/concepts that  relate to it. Half assed effort leads to a failure. Always! So, I guess it’s fair to say that an Engineer has ability to look into the mechanics of the situation more deeply than an average person.</p>
+
+<p>I am put to a great discomfort when I look at people being so confident on what they say. I don’t mind the individual having the confidence, but then it’s usually backed up by a very superficial reasoning and orthogonal data points.  E.g something is supposed to work because it worked for someone else. Reasoning by analogy is not a good way to reason. I am absolutely blown. Often I think to myself, “Wow! I am sure about nothing in life!”.</p>
+
+<p>I have no ability to be sure about anything. I suppose it’s because I am used to breaking complex problems into simpler ones, break things down into modules, add limitations on it and then build the solution with components that shall work only if the inputs are within the abstraction boundary. This usually leaves me in a situation where I know in good detail how my solution can break. I am always aware of the limitations of the solutions I build. And frankly it bothers me! My intention of course is to progress in a way that you don’t have to revise your decisions and redo the entire thing. Avoid a reset!</p>
+
+<p>Then I meet lot of people who propose to me their plan of solving an issue and thriving. The problem? They cannot reason one level beyond what is obvious, they seek help, if I suggest they counter with yet another broken argument. And while they do all of it, they are so CONFIDENT! Wonder why take decisions based on reasons that are fragile!</p>
+</div>
