@@ -232,8 +232,8 @@ hr {
 
 .pointer {
     position: relative;
-    margin-top:0%;
-    margin-left:0%;
+    margin-top:15%;
+    margin-left:18%;
     vertical-align: middle;
-    font-size: 50px;
+    font-size: 32px;
 }

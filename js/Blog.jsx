@@ -127,7 +127,7 @@ class Blog extends React.Component {
                         <div dangerouslySetInnerHTML={{__html: this.state.blog}}></div>
                         <div className="st" onClick={this.loadHome.bind(this)}>
                             <div className="pointer">
-                            <i class="fas fa-arrow-circle-left"></i>
+                            <i class="fas fa-angle-double-left"></i>
                             </div>
                         </div>
                         <div className="ft">
