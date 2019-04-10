@@ -34,19 +34,12 @@ body {
 }
 
 .post-title {
-    padding: 2px;
     font-size: 16px;
     font-weight: 600;
 }
 
-.post-date {
-    padding: 2px;
-    font-size: 12px;
-    font-style: italic;
-    color: gray;
-}
-
 .post-snippet{
+    margin:0px;
     font-size: 14px;
 }
 
@@ -133,6 +126,14 @@ hr {
         color: grey;
         font-style: oblique;
     }
+
+    .blog-img {
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        margin:0px;
+        padding:-5%;
+    }
 }
 
 @media (min-width: 1205px) {
@@ -193,15 +194,17 @@ hr {
         z-index: 3;
         cursor: pointer;
     }
+
+    .blog-img {
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        margin:0px;
+        padding:-5%;
+    }
 }
 
-.blog-img {
-    align-content: center;
-    align-items: center;
-    width: 100%;
-    margin:0px;
-    padding:-5%;
-}
+
 
 .ft {
     margin-top:10px;

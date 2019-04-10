@@ -22,7 +22,6 @@ class PostCard extends React.Component {
                 {<PostImage image={this.props.post.image}/>}
                 <div className="post">
                     {<PostTitle title={this.props.post.title}/>}
-                    {<PostDate date={this.props.post.date}/>}
                     {<PostSnippet snippet={this.props.post.snippet}/>}
                 </div>
             </div>
