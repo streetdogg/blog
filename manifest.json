@@ -8,7 +8,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "blog/index.html",
+    "start_url": "https://pitankar.github.io/blog/",
     "background_color": "#FFFFFF",
     "display": "standalone",
     "scope": "/",
