@@ -1,4 +1,3 @@
-
 class PostSnippet extends React.Component {
     render() {
         return (
@@ -125,9 +124,9 @@ class Blog extends React.Component {
                 <div className="paper">
                     <div className="md">
                         <div dangerouslySetInnerHTML={{__html: this.state.blog}}></div>
-                        <div className="st" onClick={this.loadHome.bind(this)}>
+                        <div className="home" onClick={this.loadHome.bind(this)}>
                             <div className="pointer">
-                            <i class="fas fa-angle-double-left"></i>
+                                <i className="fa fa-arrow-left"></i>
                             </div>
                         </div>
                         <div className="ft">

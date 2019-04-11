@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- <html lang="en" manifest="cache.manifest"> -->
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Webapp settings for Android -->
+    <meta name="theme-color" content="#FFFFFF"/>
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Webapp settings for iOS-->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="PI-Blog">
-    <link rel="apple-touch-icon" href="single-page-icon.png">
+    <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="data/icons/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="data/icons/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="data/icons/touch-icon-ipad-retina.png">
+
+    <!-- Startup Image-->
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" href="data/icons/apple-launch-1242x2688.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" href="data/icons/apple-launch-828x1792.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="data/icons/apple-launch-1125x2436.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" href="data/icons/apple-launch-1242x2208.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="data/icons/apple-launch-750x1334.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" href="data/icons/apple-launch-2048x2732.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" href="data/icons/apple-launch-1668x2388.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" href="data/icons/apple-launch-1668x2224.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" href="data/icons/apple-launch-1536x2048.png">
     <title>Piyush Itankar's Blog</title>
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/genericons.css">
 </head>
 <body>
     <div class="blog" id="root">
         Loding...
     </div>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
     <script defer src="js/react.development.js" crossorigin></script>
     <script defer src="js/react-dom.development.js" crossorigin></script>
     <script defer src="js/babel.min.js"></script>
     <script defer src="js/Blog.jsx"  type="text/babel"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 </body>
 </html>

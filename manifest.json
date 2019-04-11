@@ -1,0 +1,16 @@
+{
+    "short_name": "PI-Blog",
+    "name": "PI's - Blog",
+    "icons": [
+      {
+        "src": "data/icons/touch-icon-ipad.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#FFFFFF"
+  }

@@ -1,3 +1,30 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('/fonts/fontawesome-webfont.eot');
+    src: url('/fonts/fontawesome-webfont.woff2') format('woff2'), url('/fonts/fontawesome-webfont.woff') format('woff'), url('/fonts/fontawesome-webfont.ttf') format('truetype'), url('/fonts/fontawesome-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .fa-arrow-left:before {
+    content: "\f060";
+  }
+
 body {
     margin:  0px;
     padding: 0px;
@@ -20,7 +47,6 @@ body {
 
 .post-img
 {
-    height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -39,7 +65,7 @@ body {
 }
 
 .post-snippet{
-    margin:0px;
+    margin: 0px;
     font-size: 14px;
 }
 
@@ -57,9 +83,9 @@ hr {
 
 .post-card:hover,
 .post-card:focus  {
-    box-shadow: 0 2px 10px rgba(32, 33, 36, 0.28);
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
     z-index: 1;
-    transform: scale(1.01);
+    /* transform: scale(1.01); */
     cursor: pointer;
 }
 
@@ -73,7 +99,8 @@ hr {
         -webkit-tap-highlight-color: transparent;
         -webkit-touch-callout: none;
      }
-    .md {
+
+     .md {
         position:flex;
         align-items: flex-start;
         margin:0;
@@ -84,7 +111,7 @@ hr {
         font-family: sans-serif;
     }
 
-    .st {
+    .home {
         background:white;
         width: 50px;
         height: 50px;
@@ -128,9 +155,9 @@ hr {
     }
 
     .blog-quote:after {
-        content: ' \f10e';
-        font: 16px/1 'fontawesome';
-        color:brown;
+        content: '\0020\f10e';
+        font: 16px/1 'FontAwesome';
+        color:grey;
         position: relative;
     }
 
@@ -185,22 +212,20 @@ hr {
     }
 
     .blog-quote:before {
-        content: '\f10d  ';
-        font: 64px/1 'fontawesome';
-        width: 64px;
-        height: 64px;
+        content: '\f10d\0020';
+        font: 20px/1 'FontAwesome';
+        width: 20px;
+        height: 20px;
         color:grey;
         position: relative;
-        top: 20px;
-        right: 0%;
     }
 
-    .st {
-        /* background:white; */
+    .home {
+        background:white;
         width: 50px;
         height: 50px;
         border-radius: 50px;
-        box-shadow: 0px 0px 10px 0px grey;
+        box-shadow: 0px 0px 5px 0px grey;
         font: bold 18px/21px Helvetica, Arial, sans-serif;
         margin: 0;
         padding: 0;
@@ -232,8 +257,8 @@ hr {
 
 .pointer {
     position: relative;
-    margin-top:15%;
-    margin-left:18%;
+    margin-top:27%;
+    margin-left:30%;
     vertical-align: middle;
-    font-size: 32px;
+    font-size: 20px;
 }
