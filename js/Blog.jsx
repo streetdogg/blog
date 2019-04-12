@@ -126,7 +126,7 @@ class Blog extends React.Component {
                         <div dangerouslySetInnerHTML={{__html: this.state.blog}}></div>
                         <div className="home" onClick={this.loadHome.bind(this)}>
                             <div className="pointer">
-                                <i className="fa fa-arrow-left"></i>
+                                <i className="material-icons md-48">reply</i>
                             </div>
                         </div>
                         <div className="ft">
